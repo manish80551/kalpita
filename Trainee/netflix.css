@@ -1,0 +1,18 @@
+body{
+    background-image: url(Assests/Images/Netflix-Background.jpg);
+    background-attachment: fixed;
+}
+h1{
+    text-align: center ;color: aliceblue;
+    
+}
+.container{
+    height: 100vh;
+}
+footer{
+    background-color: black;
+    height: 300px;
+    text-decoration: none;
+    text-align: center;
+    
+}

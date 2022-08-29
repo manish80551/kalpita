@@ -1,0 +1,94 @@
+body{
+    background-image: url(https://images7.alphacoders.com/115/thumb-1920-1152299.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+
+h1{
+    text-align: center;
+    color:#fff;
+    padding: 5px;
+}
+p{
+    text-align: center;
+    color:aqua;
+    font-size: medium;
+}
+p.dotted{
+    border-style: dotted;
+    color: aliceblue;
+}
+
+p.dashed{
+    border-style: dashed;
+}
+p.solid{
+    border-style: solid;
+}
+p.double{
+    border-style: double;
+}
+p.groove{
+    border-style: groove;
+    
+}
+p.inset{
+    border-style: inset;
+}
+p.outset{
+    border-style: outset;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+       
+}
+a:hover{
+    cursor: pointer;
+    color:gold;
+    border: 2px solid greenyellow;
+    background-color:cornflowerblue;
+}
+.add{
+    font-style: normal;
+}
+.but{
+    text-align: right;
+    color:blueviolet
+}
+
+ 
+
+  div1 {
+    box-sizing: border-box;
+    width: 50%;
+    border: 5px solid ;
+    float: right;
+    background-color: cadetblue;
+  }
+  div2 {
+    box-sizing: content-box;
+    width: 40%;
+    border: 5px solid ;
+    float: left;
+    background-color:cadetblue;
+  }
+
+  div3{
+    box-sizing: border-box;
+    width: 50%;
+    border: 2px solid black;
+
+  }
+  div5{
+    height: 150px ;width: 300px;
+  }
